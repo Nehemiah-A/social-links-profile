@@ -83,6 +83,68 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   /***General Styles***/
+   html {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+   }
+
+  body {
+    display: flex;
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+  }
+
+  .everything {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #222;
+    margin:auto;
+    width: 50%;
+    padding: 70px 0;
+    text-align: center;
+    /*border: 1px solid hsl(0, 0%, 12%) ;*/
+  }
+
+  .content-wrapper1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+ 
+  .content-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+  }
+
+
+  /***HERO STYLES***/
+  figure {
+  
+  }
+  figure img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border-radius: 50%;
+  }
+
+/***Main Styles***/
+
+.button-content {
+  display: flex;
+  justify-content: center;
+  flex-flow:column wrap ;
+}
 
 /* ==========================================================================
    Helper classes
